@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ Define a variable silly to contain the string:
 'newly formed bland ideas are inexpressible in an infuriating
 way'.  (This happens to be the legitimate interpretation that
@@ -16,5 +19,6 @@ Combine the words in bland back into a single string, using join().
 Make sure the words in the resulting string are separated with
 whitespace.
 Print the words of silly in alphabetical order, one per line.
+
 
 '''

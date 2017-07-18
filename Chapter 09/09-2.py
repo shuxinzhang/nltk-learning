@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Develop a variant of grammar in 1.1 that uses a
 feature count to make the distinctions shown below:
 
@@ -32,6 +35,7 @@ a.The water is precious.
 
 
 b.Water is precious.
+
 
 
 '''

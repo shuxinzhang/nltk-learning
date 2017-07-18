@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Consider the sequence of words:
 Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.
 This is a grammatically correct sentence, as explained at
@@ -9,4 +12,5 @@ grammar.  Normalize case to lowercase, to simulate the problem that a listener h
 this sentence.  Can you find other parses for this sentence?
 How does the number of parse trees grow as the sentence gets longer?
 (More examples of these sentences can be found at http://en.wikipedia.org/wiki/List_of_homophonous_phrases).
+
 '''

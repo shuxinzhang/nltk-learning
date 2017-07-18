@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ As in the preceding exercise, find a λ abstract e1 that yields
 results equivalent to those shown below.
 
@@ -38,6 +41,7 @@ bark(fido)
 >>> e3 = nltk.sem.ApplicationExpression(e1, e2)
 >>> print(e3.simplify())
 all x.(dog(x) -> bark(x))
+
 
 
 

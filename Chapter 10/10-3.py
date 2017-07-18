@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Translate the following sentences into
 quantified formulas of first order logic.
 
@@ -12,5 +15,6 @@ Bruce loves somebody other than Bruce.
 Nobody other than Matthew loves somebody Pat.
 Cyril likes everyone except for Irene.
 Exactly one person is asleep.
+
 
 '''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼
 Select one of the classification tasks described in this chapter,
 such as name gender detection, document classification,
@@ -10,4 +13,5 @@ Bayes classifier, and a Maximum Entropy classifier.  Compare
 the performance of the three classifiers on your selected task.
 How do you think that your results might be different if you used
 a different feature extractor?
+
 '''

@@ -40,9 +40,9 @@ def main(chapterNum):
 	exercises = get_exercise_section(chapterNum)
 	for i in range(0,len(exercises)):
 		write_to_file(
-			'import nltk \n \'\'\'\n'+ \
+			"# -*- coding: utf-8 -*-\nimport matplotlib\nmatplotlib.use('TkAgg')\nimport nltk \n\'\'\'\n"+ \
 			exercises[i].encode('utf8')+ \
-			'\'\'\'\n',chapterNum,i)
+			"\n\'\'\'",chapterNum,i)
 	os.chdir("..")
 main("01")
 main("02")

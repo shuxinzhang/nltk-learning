@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Translate the following sentences into propositional logic
 and verify that they can be processed with Expression.fromstring().
 Provide a key which shows how the propositional variables in your
@@ -11,5 +14,6 @@ It will snow if it doesn't rain.
 It's not the case that Irene will be happy if Olive or Tofu comes.
 Pat didn't cough or sneeze.
 If you don't come if I call, I won't come if you call.
+
 
 '''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Rewrite the following loop as a list comprehension:
 
 
@@ -14,6 +17,7 @@ import nltk
 ...     result.append(word_len)
 >>> result
 [('The', 3), ('dog', 3), ('gave', 4), ('John', 4), ('the', 3), ('newspaper', 9)]
+
 
 
 

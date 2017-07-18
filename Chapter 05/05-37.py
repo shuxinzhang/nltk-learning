@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★
 Our approach for tagging an unknown word has been to consider the letters of the word
 (using RegexpTagger()), or to ignore the word altogether and tag
@@ -15,5 +18,6 @@ programming in Python.)
 Add this tagger to the sequence of backoff taggers (including ordinary trigram
 and bigram taggers that look at words), right before the usual default tagger.
 Evaluate the contribution of this new unigram tagger.
+
 
 '''

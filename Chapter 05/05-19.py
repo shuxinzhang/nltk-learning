@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ The evaluate() method works out how accurately
 the tagger performs on this text.  For example, if the supplied tagged text
 was [('the', 'DT'), ('dog', 'NN')] and the tagger produced the output
@@ -14,5 +17,6 @@ Now examine the source code to see how the method is implemented.  Inspect
 nltk.tag.api.__file__ to discover the location of the source code,
 and open this file using an editor (be sure to use the api.py file and
 not the compiled api.pyc binary file).
+
 
 '''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑
 Word features can be very useful for performing document
 classification, since the words that appear in a document give a
@@ -12,4 +15,5 @@ WordNet lexicon, augment the movie review document classifier
 presented in this chapter to use features that generalize the words
 that appear in a document, making it more likely that they will
 match words found in the training data.
+
 '''

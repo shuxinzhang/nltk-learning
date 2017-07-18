@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★
 As we saw in 7., it is possible
 to collapse chunks down to their chunk label.  When we do this
@@ -22,5 +25,6 @@ Use the chunking method to study the complementation patterns of
 these verbs.  Create a grammar to cover these cases.  Can the verbs
 be freely substituted for each other, or are their constraints?
 Discuss your findings.
+
 
 '''

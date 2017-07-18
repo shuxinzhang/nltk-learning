@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ Read up on Gematria, a method for assigning numbers to words, and for
 mapping between words having the same number to discover the hidden meaning of
 texts (http://en.wikipedia.org/wiki/Gematria, http://essenes.net/gemcal.htm).
@@ -24,6 +27,7 @@ many of its words have the number 666.
 
 Write a function decode() to process a text, randomly replacing words with
 their Gematria equivalents, in order to discover the "hidden meaning" of the text.
+
 
 
 '''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ Consider the feature structures shown in 6.1.
 
 
@@ -20,4 +23,5 @@ fs9 = nltk.FeatStruct("[A = [B = b], C = [E = [G = e]]]")
 fs10 = nltk.FeatStruct("[A = (1)[B = b], C -> (1)]")
 
 
-Example 6.1 (code_featstructures.py): Figure 6.1: Exploring Feature Structures'''
+Example 6.1 (code_featstructures.py): Figure 6.1: Exploring Feature Structures
+'''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★
 The PP Attachment Corpus is a corpus describing
 prepositional phrase attachment decisions.  Each instance in the
@@ -41,4 +44,5 @@ example, given the pair of nouns "team" and "researchers," the
 classifier should predict the preposition "of".  See the corpus
 HOWTO at http://nltk.org/howto for more information on using the PP
 attachment corpus.
+
 '''

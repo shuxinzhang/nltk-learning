@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★
 The Penn Treebank contains a section of tagged Wall Street Journal text
 that has been chunked into noun phrases.  The format uses square brackets,
@@ -16,5 +19,6 @@ Write command-line conversion utilities bracket2iob.py and iob2bracket.py
 that take a file in Treebank or CoNLL format (resp) and convert it to the other
 format.  (Obtain some raw Treebank or CoNLL data from the NLTK Corpora, save it
 to a file, and then use for line in open(filename) to access it from Python.)
+
 
 '''

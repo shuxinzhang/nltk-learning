@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★
 Pick one of the three chunk types in the CoNLL corpus.  Write functions
 to do the following tasks for your chosen type:
@@ -9,5 +12,6 @@ order of decreasing frequency; each line should consist of an integer (the frequ
 and the tag sequence.
 Inspect the high-frequency tag sequences.  Use these as the basis for
 developing a better chunker.
+
 
 '''

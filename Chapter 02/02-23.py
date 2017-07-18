@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★ Zipf's Law:
 Let f(w) be the frequency of a word w in free text. Suppose that
 all the words of a text are ranked according to their frequency,
@@ -19,5 +22,6 @@ concatenation operator to accumulate characters into a (very)
 long string.  Then tokenize this string, and generate the Zipf
 plot as before, and compare the two plots.  What do you make of
 Zipf's Law in the light of this?
+
 
 '''

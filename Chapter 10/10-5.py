@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Consider the following statements:
 
 
@@ -55,6 +58,7 @@ exists y.(love(pat,y) | love(y,pat))
 
 >>> print(e3.simplify())
 walk(fido)
+
 
 
 

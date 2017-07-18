@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ According to Strunk and White's Elements of Style,
 the word however, used at the start of a sentence,
 means "in whatever way" or "to whatever extent", and not
@@ -9,4 +12,5 @@ However you advise him, he will probably do as he thinks best.
 Use the concordance tool to study actual usage of this word
 in the various texts we have been considering.
 See also the LanguageLog posting "Fossilized prejudices about 'however'"
-at http://itre.cis.upenn.edu/~myl/languagelog/archives/001913.html'''
+at http://itre.cis.upenn.edu/~myl/languagelog/archives/001913.html
+'''

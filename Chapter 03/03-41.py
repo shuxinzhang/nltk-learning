@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★ Rewrite the following nested loop as a nested list comprehension:
 
 
@@ -19,6 +22,7 @@ import nltk
 ...     vsequences.add(''.join(vowels))
 >>> sorted(vsequences)
 ['aiuio', 'eaiou', 'eouio', 'euoia', 'oauaio', 'uiieioa']
+
 
 
 

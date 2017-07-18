@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★ Modify the text generation program in 2.2 further, to
 do the following tasks:
 Store the n most likely words in a list words then randomly
@@ -13,5 +16,6 @@ is the text?  Discuss the strengths and weaknesses of this method of
 generating random text.
 Now train your system using two distinct genres and experiment
 with generating text in the hybrid genre.  Discuss your observations.
+
 
 '''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ★ Use one of the predefined similarity measures to score
 the similarity of each of the following pairs of words.
 Rank the pairs in order of decreasing similarity.
@@ -12,4 +15,5 @@ furnace-stove, food-fruit, bird-cock, bird-crane, tool-implement,
 brother-monk, lad-brother, crane-implement, journey-car,
 monk-oracle, cemetery-woodland, food-rooster, coast-hill,
 forest-graveyard, shore-woodland, monk-slave, coast-forest,
-lad-wizard, chord-smile, glass-magician, rooster-voyage, noon-string.'''
+lad-wizard, chord-smile, glass-magician, rooster-voyage, noon-string.
+'''

@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑
 The dialog act classifier assigns labels to individual posts,
 without considering the context in which the post is found.
@@ -11,4 +14,5 @@ fact to build a consecutive classifier for labeling dialog acts.
 Be sure to consider what features might be useful.  See the code
 for the consecutive classifier for part-of-speech tags in
 1.7 to get some ideas.
+
 '''

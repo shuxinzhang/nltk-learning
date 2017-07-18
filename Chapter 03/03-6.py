@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Describe the class of strings matched by the following regular
 expressions.
 
@@ -11,4 +14,5 @@ p[aeiou]{,2}t
 \w+|[^\w\s]+
 
 Test your answers using nltk.re_show().
+
 '''

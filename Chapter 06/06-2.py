@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ☼ Using any of the three classifiers described in this
 chapter, and any features you can think of, build the best name
 gender classifier you can.  Begin by splitting the Names Corpus
@@ -11,4 +14,5 @@ progress.  Once you are satisfied with your classifier, check its
 final performance on the test set.  How does the performance on
 the test set compare to the performance on the dev-test set?
 Is this what you'd expect?
+
 '''

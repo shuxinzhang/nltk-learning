@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ Create a list of words and store it in a variable sent1.
 Now assign sent2 = sent1.  Modify one of the items in sent1
 and verify that sent2 has changed.
@@ -14,5 +17,6 @@ Explain.
 Load Python's deepcopy() function (i.e. from copy import deepcopy),
 consult its documentation, and test that it makes a fresh copy of any
 object.
+
 
 '''

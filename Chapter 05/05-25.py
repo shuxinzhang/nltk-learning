@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+import matplotlib
+matplotlib.use('TkAgg')
 import nltk 
- '''
+'''
 ◑ Obtain some tagged data for another language, and train and
 evaluate a variety of taggers on it.  If the language is
 morphologically complex, or if there are any orthographic clues
@@ -7,4 +10,5 @@ morphologically complex, or if there are any orthographic clues
 regular expression tagger for it (ordered after the unigram
 tagger, and before the default tagger).  How does the accuracy of
 your tagger(s) compare with the same taggers run on English data?
-Discuss any issues you encounter in applying these methods to the language.'''
+Discuss any issues you encounter in applying these methods to the language.
+'''
