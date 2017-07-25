@@ -14,3 +14,7 @@ in the various texts we have been considering.
 See also the LanguageLog posting "Fossilized prejudices about 'however'"
 at http://itre.cis.upenn.edu/~myl/languagelog/archives/001913.html
 '''
+
+from nltk.corpus import wordnet as wn
+from nltk.book import *
+print text1.concordance('However');

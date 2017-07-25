@@ -8,3 +8,14 @@ import nltk
 Which genre has the lowest diversity (greatest number of tokens per type)?
 Is this what you would have expected?
 '''
+from nltk.corpus import brown
+def lexical_diversity(text):
+	return len(set(text))*1.0/len(text)
+
+for genre in brown.categories():
+	print genre + ":" + str(lexical_diversity(brown.words(categories = genre)))
+
+
+
+
+

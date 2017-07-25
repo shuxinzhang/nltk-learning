@@ -8,3 +8,11 @@ state_union corpus reader.  Count occurrences of men, women,
 and people in each document.  What has happened to the usage of these
 words over time?
 '''
+
+from nltk.corpus import state_union
+#print state_union.fileids()
+targets = ['men','women','people']
+pair = [(target,fileid[:4]) for fileid in state_union.fileids() for word in state_union.words(fileid) for target in targets if word.lower()==target]
+print pair
+cfd = nltk.ConditionalFreqDist(pair)
+cfd.plot()

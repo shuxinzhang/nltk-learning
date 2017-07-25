@@ -9,3 +9,8 @@ in order to get corresponding words in English.
 What problem might arise with this approach?
 Can you suggest a way to avoid this problem?
 '''
+
+'''
+some words with multiple meanings might cause ambiguity.
+Compare the synset of the two words, compare the synonyms and get words along with definitions with the closest meaning.
+'''
