@@ -2,6 +2,7 @@
 import matplotlib
 matplotlib.use('TkAgg')
 import nltk 
+import math
 '''
 ★ Zipf's Law:
 Let f(w) be the frequency of a word w in free text. Suppose that
@@ -25,3 +26,27 @@ Zipf's Law in the light of this?
 
 
 '''
+from nltk import FreqDist
+import pylab
+import numpy
+from nltk.corpus import brown
+def zipfProof(text):
+	fdist = FreqDist([w.lower() for w in text])
+	values = fdist.values()
+	rankedValues = list(reversed(sorted(values)))
+	x = []
+	y = []
+	for i in range(0,len(rankedValues)):
+		rank = math.log10(i+1)
+		freq = math.log10(rankedValues[i])
+		x.append(rank)
+		y.append(freq)
+	rankavg = numpy.mean(x)
+	freqavg = numpy.mean(y)
+	pylab.plot(x,y)
+	return pylab.show()
+
+zipfProof(brown.words())
+
+
+

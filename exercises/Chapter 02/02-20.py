@@ -7,3 +7,10 @@ import nltk
 of the Brown Corpus as arguments, and computes the frequency of the word
 in that section of the corpus.
 '''
+
+from nltk.corpus import brown
+from nltk import FreqDist
+def word_freq(word,section):
+	fdist = FreqDist(brown.words(section))
+	return fdist[word]
+
